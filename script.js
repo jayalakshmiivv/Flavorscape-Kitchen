@@ -46,8 +46,8 @@
       { name: "Fries", desc: "Crispy potato fries", price: 70, img: "fries.jpg" }
     ],
 special: [
-    { name: "Tandoori Chicken", desc: "Juicy grilled chicken with spices", price: 200, offer: 20, img: "" },
-    { name: "Pasta Alfredo", desc: "Creamy and delicious Italian pasta", price: 180, offer: 20, img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=60" },
+    { name: "Tandoori Chicken", desc: "Juicy grilled chicken with spices", price: 200, offer: 20, img: "grilledchicken.jpg" },
+    { name: "Pasta Alfredo", desc: "Creamy and delicious Italian pasta", price: 180, offer: 20, img: "pasta.jfif" },
     { name: "Chocolate Lava Cake", desc: "Rich molten chocolate dessert", price: 150, offer: 20, img: "cake.jpg" },
     { name: "Grilled Paneer Tikka", desc: "Smoky grilled paneer cubes", price: 190, offer: 20, img: "grilledpaneer.jpg" }
   ]
