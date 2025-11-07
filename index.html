@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flavorscape Kitchen</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Flavorscape Kitchen</h1>
+
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <button data-scroll="hero">Home</button>
+        <button data-scroll="menu">Menu</button>
+        <button data-scroll="about">About</button>
+        <button data-scroll="contact">Contact</button>
+      </nav>
+
+      <div class="actions">
+  <span id="userWelcome" class="muted fade" style="font-weight:600; display:none;"></span>
+  <button id="userLogoutBtn" class="btn outline fade" style="display:none;">Logout</button>
+  <button id="userLoginBtn" class="btn outline">User Login</button>
+  <button id="adminLoginBtn" class="btn primary">Admin Login</button>
+</div>
+
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner container">
+      <h2 class="hero-title">Welcome to Flavorscape Kitchen</h2>
+      <p class="hero-sub highlight-text">🍴 <strong>Where delicious meals are made fresh every day</strong> 🍳</p>
+
+    </div>
+  </section>
+
+  <main>
+
+    <!-- MENU CARDS (category jumpers) -->
+    <section class="menu-cards container" id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="cards-grid">
+        <div class="menu-card" data-target="breakfast">
+          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=900&q=60')"></div>
+          <div class="card-body">
+            <h3>Morning Breakfast</h3>
+            <p>Start your day with healthy and delicious options.</p>
+          </div>
+        </div>
+        <div class="menu-card" data-target="lunch">
+          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900&q=60')"></div>
+          <div class="card-body">
+            <h3>Lunch</h3>
+            <p>Flavorful meals and hearty thalis.</p>
+          </div>
+        </div>
+        <div class="menu-card" data-target="dinner">
+          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=900&q=60')"></div>
+          <div class="card-body">
+            <h3>Dinner</h3>
+            <p>Comforting homestyle dishes for the evening.</p>
+          </div>
+        </div>
+        <div class="menu-card" data-target="snacks">
+          <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1601050690597-df0568f70950?w=900&q=60')"></div>
+          <div class="card-body">
+            <h3>Snacks</h3>
+            <p>Perfect bites for evenings and tea time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMIN PANEL BUTTON -->
+    <section class="container admin-callout">
+      <button id="openAdminPanel" class="btn primary">Add New Menu Item (Admin)</button>
+      <small class="muted">This is a demo admin form — items are saved locally in your browser.</small>
+    </section>
+
+    <!-- MENU SECTIONS (each with 4 centered items by default) -->
+    <section id="breakfast" class="menu-section container">
+      <h2 class="section-title"><span>🥞</span> Morning Breakfast</h2>
+      <div class="items-grid" data-category="breakfast"></div>
+    </section>
+
+    <section id="lunch" class="menu-section container">
+      <h2 class="section-title"><span>🍛</span> Lunch</h2>
+      <div class="items-grid" data-category="lunch"></div>
+    </section>
+
+    <section id="dinner" class="menu-section container">
+      <h2 class="section-title"><span>🍽</span> Dinner</h2>
+      <div class="items-grid" data-category="dinner"></div>
+    </section>
+
+    <section id="snacks" class="menu-section container">
+      <h2 class="section-title"><span>🍰</span> Snacks</h2>
+      <div class="items-grid" data-category="snacks"></div>
+    </section>
+
+<!-- 🌟 SPECIAL DISHES SECTION -->
+<section id="special" class="menu-section container">
+  <h2 class="section-title"><span>🌟</span> Special Dishes</h2>
+  <div class="items-grid" data-category="special"></div>
+</section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container about-section">
+      <div class="card about-card">
+        <h2>About Us</h2>
+        <p>
+          Welcome to <strong class="accent">Flavorscape Kitchen</strong>, where we bring the joy of cooking to your home. Our kitchen is dedicated to providing delicious, high-quality meals made with fresh ingredients and a touch of love.
+        </p>
+        <p>
+          Whether you're looking for traditional flavors or modern recipes, we ensure every dish is crafted to perfection. At <strong class="accent">Flavorscape Kitchen</strong>, we believe that good food brings people together.
+        </p>
+        <p class="accent-strong">Experience the best of homemade flavors with us!</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container contact-section">
+      <div class="card contact-card">
+        <h2>Contact Us</h2>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <div class="icon">✉️</div>
+            <h4>Email</h4>
+            <p class="muted">contact@flavorscapekitchen.com</p>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <h4>Phone</h4>
+            <p class="muted">+123-456-7890</p>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <h4>Address</h4>
+            <p class="muted">123 Food Street, Culinary City</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- FEEDBACK -->
+<section id="feedback" class="container feedback-section">
+  <div class="card feedback-card">
+    <h2 class="section-title">Customer Feedback</h2>
+
+    <form id="feedbackForm" class="feedback-form">
+      <div class="row">
+        <label>
+          Name
+          <input id="fbName" type="text" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Rating
+          <select id="fbRating" required>
+            <option value="">— rating —</option>
+            <option value="5">5 — Excellent</option>
+            <option value="4">4 — Very Good</option>
+            <option value="3">3 — Good</option>
+            <option value="2">2 — Fair</option>
+            <option value="1">1 — Poor</option>
+          </select>
+        </label>
+      </div>
+
+      <label>
+        Comment
+        <textarea id="fbComment" rows="4" placeholder="Tell us what you liked (or what to improve)"></textarea>
+      </label>
+
+      <div class="modal-actions" style="justify-content:flex-start;">
+        <button type="submit" class="btn primary">Submit Feedback</button>
+        <button type="button" id="clearFeedback" class="btn outline">Clear All (Admin)</button>
+      </div>
+
+      <p class="muted note">Feedback is stored locally for demo purposes.</p>
+    </form>
+
+    <hr style="margin:1rem 0;" />
+
+    <div id="feedbackList" class="feedback-list"></div>
+  </div>
+</section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <strong>Flavorscape Kitchen</strong> — Made with ❤️</div>
+      <div class="muted">Static demo • Items stored in browser (localStorage)</div>
+    </div>
+  </footer>
+
+  <!-- ADMIN MODAL (fake but functional: stores items to localStorage) -->
+  <div id="adminModal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" id="adminClose">&times;</button>
+      <h3 class="modal-title">Add New Menu Item</h3>
+
+      <form id="adminForm" class="modal-form">
+        <label>
+          Category
+          <select id="categoryInput" required>
+            <option value="">-- choose category --</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="snacks">Snacks</option>
+          </select>
+        </label>
+
+        <label>
+          Item Name
+          <input id="nameInput" required placeholder="e.g. Masala Dosa" />
+        </label>
+
+        <label>
+          Description
+          <textarea id="descInput" rows="3" placeholder="Short description"></textarea>
+        </label>
+
+        <label>
+          Price (₹)
+          <input id="priceInput" type="number" step="0.01" required placeholder="120" />
+        </label>
+
+        <label>
+          Image URL
+          <input id="imgInput" type="url" placeholder="https://..." />
+        </label>
+
+        <div class="modal-actions">
+          <button type="submit" class="btn primary">Add Menu Item</button>
+          <button type="button" id="adminCancel" class="btn outline">Cancel</button>
+        </div>
+
+        <p class="muted note">This demo saves items in your browser; no server involved.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- AUTH MODAL (fake demo) -->
+  <div id="authModal" class="modal" aria-hidden="true">
+    <div class="modal-panel small">
+      <button class="modal-close" id="authClose">&times;</button>
+      <h3 class="modal-title">User Login (Demo)</h3>
+      <form id="authForm" class="modal-form">
+        <label>
+          Email
+          <input id="authEmail" type="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          Password
+          <input id="authPassword" type="password" required minlength="4" />
+        </label>
+
+        <div class="modal-actions">
+          <button type="submit" class="btn primary">Sign in</button>
+          <button id="authCancel" type="button" class="btn outline">Cancel</button>
+        </div>
+
+        <p class="muted note">This is a demo — no real authentication. Use any values to "sign in".</p>
+      </form>
+    </div>
+  </div>
+
+  
+<!-- ✅ Success Popup -->
+<div id="successPopup" class="popup hidden">
+  <div class="popup-content">
+    <span id="popupMessage">Item added successfully!</span>
+  </div>
+</div>
+<!-- 🛒 CART POPUP -->
+<div id="cartPanel" class="cart-panel hidden">
+  <div class="cart-header">
+    <h3>🛒 Your Cart</h3>
+    <button id="closeCart" class="btn outline small">✖</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <strong>Total:</strong> ₹<span id="cartTotal">0</span>
+    </div>
+    <button id="clearCart" class="btn outline small">Clear</button>
+  </div>
+</div>
+
+<!-- 🛒 Floating Cart Button -->
+<button id="cartBtn" class="floating-cart-btn">🛒</button>
+
+
+<!-- 🎁 OFFER POPUP -->
+<div id="offerPopup" class="offer-popup hidden">
+  <div class="offer-content">
+    <button id="closeOffer" class="close-offer">✖</button>
+    <span class="emoji">🎉</span>
+    <h2>Special Offer</h2>
+    <p class="offer-text">Loading...</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
