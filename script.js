@@ -22,34 +22,34 @@
   const initial = {
     breakfast: [
   { name: "Masala Dosa", desc: "Crispy dosa with potato masala", price: 80, img: "masaladosa.jpg" },
-  { name: "Idli Sambar", desc: "Soft idlis with sambar", price: 60, img: "https://www.freepik.com/premium-photo/idly-sambar-idli-with-sambhar-green-red-chutney-popular-south-indian-breakfast_92358645.htm#fromView=keyword&page=1&position=19&uuid=b7b916cb-6fa5-4213-80e4-09bc2c395fd9&query=Idli+sambar" },
-  { name: "Egg Omelette", desc: "Spicy omelette with onions", price: 70, img: "https://placehold.co/800x600?text=Egg+Omelette" },
-  { name: "Pongal", desc: "Creamy pongal with ghee", price: 75, img: "https://placehold.co/800x600?text=Pongal" }
+  { name: "Idli Sambar", desc: "Soft idlis with sambar", price: 60, img: "idli.webp" },
+  { name: "Egg Omelette", desc: "Spicy omelette with onions", price: 70, img: "egg.webp" },
+  { name: "Pongal", desc: "Creamy pongal with ghee", price: 75, img: "pongal.webp" }
 ]
 ,
     lunch: [
-      { name: "Veg Thali", desc: "Assorted vegetables, rice, chapati", price: 150, img: "https://images.unsplash.com/photo-1604908177546-8e1c60b3b3ee?w=800&q=60" },
-      { name: "Chicken Biryani", desc: "Spiced chicken biryani", price: 220, img: "https://images.unsplash.com/photo-1604908177527-6f8a1d8e6f4c?w=800&q=60" },
-      { name: "Paneer Butter Masala", desc: "Creamy paneer curry", price: 180, img: "https://images.unsplash.com/photo-1604908177526-2b2d36a8d8ae?w=800&q=60" },
-      { name: "Lemon Rice", desc: "Tangy lemon rice", price: 90, img: "https://images.unsplash.com/photo-1604908177540-c6f1d2c1d9e5?w=800&q=60" }
+      { name: "Veg Thali", desc: "Assorted vegetables, rice, chapati", price: 150, img: "vegthali" },
+      { name: "Chicken Biryani", desc: "Spiced chicken biryani", price: 220, img: "chickenbiriyani.webp" },
+      { name: "Paneer Butter Masala", desc: "Creamy paneer curry", price: 180, img: "paneer.webp" },
+      { name: "Lemon Rice", desc: "Tangy lemon rice", price: 90, img: "lemonrice.jpg" }
     ],
     dinner: [
-      { name: "Chapati + Sabzi", desc: "Soft chapati with mixed veg", price: 120, img: "https://images.unsplash.com/photo-1604908177525-3b3e1c9c9b74?w=800&q=60" },
-      { name: "Fish Curry Rice", desc: "Southern fish curry with rice", price: 230, img: "https://images.unsplash.com/photo-1604908177523-5d5b1b5b5f0c?w=800&q=60" },
-      { name: "Fried Rice", desc: "Veg fried rice with chilli", price: 140, img: "https://images.unsplash.com/photo-1604908177521-1b1a1a1a1a1c?w=800&q=60" },
-      { name: "Paneer Tikka", desc: "Grilled paneer cubes", price: 200, img: "https://images.unsplash.com/photo-1604908177519-0a0a0a0a0a0b?w=800&q=60" }
+      { name: "Chapati + Sabzi", desc: "Soft chapati with mixed veg", price: 120, img: "chapati" },
+      { name: "Fish Curry Rice", desc: "Southern fish curry with rice", price: 230, img: "fishcurry.webp" },
+      { name: "Fried Rice", desc: "Veg fried rice with chilli", price: 140, img: "friedrice.jpg" },
+      { name: "Paneer Tikka", desc: "Grilled paneer cubes", price: 200, img: "paneertikka.jpg" }
     ],
     snacks: [
-      { name: "Samosa", desc: "Crispy potato samosa", price: 35, img: "https://images.unsplash.com/photo-1604908177517-9b9b9b9b9b9a?w=800&q=60" },
-      { name: "Vada", desc: "Crispy medu vada", price: 30, img: "https://images.unsplash.com/photo-1604908177515-6c6c6c6c6c6d?w=800&q=60" },
-      { name: "Sandwich", desc: "Veg sandwich with chutney", price: 55, img: "https://images.unsplash.com/photo-1604908177513-5e5e5e5e5e5f?w=800&q=60" },
-      { name: "Fries", desc: "Crispy potato fries", price: 70, img: "https://images.unsplash.com/photo-1604908177511-4d4d4d4d4d4e?w=800&q=60" }
+      { name: "Samosa", desc: "Crispy potato samosa", price: 35, img: "samosa.jpg" },
+      { name: "Vada", desc: "Crispy medu vada", price: 30, img: "vada.avif" },
+      { name: "Sandwich", desc: "Veg sandwich with chutney", price: 55, img: "sandwich.jpg" },
+      { name: "Fries", desc: "Crispy potato fries", price: 70, img: "fries.jpg" }
     ],
 special: [
-    { name: "Tandoori Chicken", desc: "Juicy grilled chicken with spices", price: 200, offer: 20, img: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=60" },
+    { name: "Tandoori Chicken", desc: "Juicy grilled chicken with spices", price: 200, offer: 20, img: "" },
     { name: "Pasta Alfredo", desc: "Creamy and delicious Italian pasta", price: 180, offer: 20, img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=60" },
-    { name: "Chocolate Lava Cake", desc: "Rich molten chocolate dessert", price: 150, offer: 20, img: "https://images.unsplash.com/photo-1604908177525-3b3e1c9c9b74?w=800&q=60" },
-    { name: "Grilled Paneer Tikka", desc: "Smoky grilled paneer cubes", price: 190, offer: 20, img: "https://images.unsplash.com/photo-1604908177523-5d5b1b5b5f0c?w=800&q=60" }
+    { name: "Chocolate Lava Cake", desc: "Rich molten chocolate dessert", price: 150, offer: 20, img: "cake.jpg" },
+    { name: "Grilled Paneer Tikka", desc: "Smoky grilled paneer cubes", price: 190, offer: 20, img: "grilledpaneer.jpg" }
   ]
   };
 
