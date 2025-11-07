@@ -21,7 +21,7 @@
   // 🧾 Initial sample items
   const initial = {
     breakfast: [
-  { name: "Masala Dosa", desc: "Crispy dosa with potato masala", price: 80, img: "demo/masaladosa.jpg" },
+  { name: "Masala Dosa", desc: "Crispy dosa with potato masala", price: 80, img: "masaladosa.jpg" },
   { name: "Idli Sambar", desc: "Soft idlis with sambar", price: 60, img: "https://placehold.co/800x600?text=Idli+Sambar" },
   { name: "Egg Omelette", desc: "Spicy omelette with onions", price: 70, img: "https://placehold.co/800x600?text=Egg+Omelette" },
   { name: "Pongal", desc: "Creamy pongal with ghee", price: 75, img: "https://placehold.co/800x600?text=Pongal" }
