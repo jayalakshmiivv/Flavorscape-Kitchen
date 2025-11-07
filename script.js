@@ -22,7 +22,7 @@
   const initial = {
     breakfast: [
   { name: "Masala Dosa", desc: "Crispy dosa with potato masala", price: 80, img: "masaladosa.jpg" },
-  { name: "Idli Sambar", desc: "Soft idlis with sambar", price: 60, img: "https://placehold.co/800x600?text=Idli+Sambar" },
+  { name: "Idli Sambar", desc: "Soft idlis with sambar", price: 60, img: "https://www.freepik.com/premium-photo/idly-sambar-idli-with-sambhar-green-red-chutney-popular-south-indian-breakfast_92358645.htm#fromView=keyword&page=1&position=19&uuid=b7b916cb-6fa5-4213-80e4-09bc2c395fd9&query=Idli+sambar" },
   { name: "Egg Omelette", desc: "Spicy omelette with onions", price: 70, img: "https://placehold.co/800x600?text=Egg+Omelette" },
   { name: "Pongal", desc: "Creamy pongal with ghee", price: 75, img: "https://placehold.co/800x600?text=Pongal" }
 ]
